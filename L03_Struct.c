@@ -7,7 +7,7 @@
  */
 #include <stdio.h>
 //创建方法一：默认声明
-struct Student{
+struct Students{
     int i;//4字节
     short j;//2字节
 } s1,s2;//s1，s2表示Student的变量，变量可以不定义；
@@ -38,7 +38,7 @@ typedef union{
 
 int main(){
 
-    struct Student student;
+    struct Students student;
     student.i=1;
     student.j=2;
     s1.i=10;
