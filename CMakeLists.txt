@@ -15,6 +15,8 @@ add_executable(04Object1 L04_Object/Student.cpp L04_Object/Student.h L04_Object/
 add_executable(05Container L05_Container/main.cpp)
 add_executable(06Posix L06_Posix/main.cpp L06_Posix/threadsync.cpp)
 add_executable(06TheadSync  L06_Posix/threadsync.cpp L06_Posix/safe_queue.h L06_Posix/Ptr.h)
+add_executable(08Clnag L08_clang/test.c)
+
 #加入头文件 查找目录
 include_directories("/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/include")
 include_directories("/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/include/darwin")
